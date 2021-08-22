@@ -7,8 +7,10 @@ Steps to reproduce:
 3) Build the solution and find no build errors.
 4) Set the `SourceGenerator` project to be the startup project.
 5) Debug the project.
-6) See error.
+6) See error:
+
 ![image](https://user-images.githubusercontent.com/21192520/130372360-36123d0f-9276-4036-9757-2c09e8f1642c.png)
+
 7) Open the `SomeLibrary` csproj file and remove `<FrameworkReference Include="Microsoft.AspNetCore.App" />`.
 8) Debug the project again, this time no error will show and the project will successfully execute with the debugger attached.
 
