@@ -16,4 +16,4 @@ Steps to reproduce:
 
 ![image](https://user-images.githubusercontent.com/21192520/130372397-e356a1c5-b06b-40c7-8471-2772e39120b6.png)
 
-This also appears to occour with dependencies that arent in nuget (I cant confirm this easily).
+This also appears to occour with dependencies that arent in nuget.org (I cant confirm this easily as I have only used one dependency that did not come from nuget.org thus, this may just be a coincidence).
