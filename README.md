@@ -14,4 +14,6 @@ Steps to reproduce:
 7) Open the `SomeLibrary` csproj file and remove `<FrameworkReference Include="Microsoft.AspNetCore.App" />`.
 8) Debug the project again, this time no error will show and the project will successfully execute with the debugger attached.
 
+![image](https://user-images.githubusercontent.com/21192520/130372397-e356a1c5-b06b-40c7-8471-2772e39120b6.png)
+
 This also appears to occour with dependencies that arent in nuget (I cant confirm this easily).
